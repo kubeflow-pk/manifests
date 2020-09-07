@@ -50,6 +50,8 @@
 | Metadata      | metadata                           | 依赖     |           |             |             |             | gcr.io/ml-pipeline/envoy:metadata-grpc                       |                       |      |
 | Metadata      | metadata                           | 依赖     |           |             |             |             | gcr.io/kubeflow-images-public/metadata-frontend:v0.1.8       |                       |      |
 | Metadata      | metadata                           | 依赖     |           |             |             |             | mysql:8.0.3                                                  |                       |      |
+| Argo          | argo                               | **核心** |           |             |             |             | argoproj/argoui:v2.3.0                                       |                       |      |
+| Argo          | argo                               | **核心** |           |             |             |             | argoproj/workflow-controller:v2.3.0                          |                       |      |
 | Webhook       | webhook                            | 依赖     |           |             |             |             | gcr.io/kubeflow-images-public/admission-webhook:v20190520-v0-139-gcee39dbc-dirty-0d8f4c |                       |      |
 | Minio         | Minio                              | 依赖     |           |             |             |             | minio/minio:RELEASE.2018-02-09T22-40-05Z                     |                       |      |
 | mysql         | mysql                              | 依赖     |           |             |             |             | mysql:5.6                                                    |                       |      |
