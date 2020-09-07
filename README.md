@@ -13,7 +13,7 @@
 | Application   | application-crds                   | 未知     |           |             |             |             | 无镜像                                                       |                       |      |
 | Pipeline      | persistent-agent                   | **核心** | ✅         | 待测试      | ✅           | ✅           | gcr.io/ml-pipeline/persistenceagent:0.2.5                    |                       |      |
 | Pipeline      | pipelines-runner                   | **核心** |           |             |             |             | 无镜像                                                       |                       |      |
-| Pipeline      | pipelines-ui                       | **核心** | ✅         | 待测试      | ✅           | ✅           | gcr.io/ml-pipeline/frontend                                  |                       |      |
+| Pipeline      | pipelines-ui                       | **核心** | ❌         | 待测试      | ✅           | ✅           | gcr.io/ml-pipeline/frontend                                  |                       |      |
 | Pipeline      | pipelines-viewer                   | **核心** | ✅         | 待测试      | ✅           | ✅           | gcr.io/ml-pipeline/viewer-crd-controller:0.1.31              |                       |      |
 | Pipeline      | pipeline-visualization-service     | 依赖     | ❌         | 待测试      | ✅           | ✅           | gcr.io/ml-pipeline/visualization-server:0.2.5                |                       |      |
 | Pipeline      | api-service                        | **核心** | ❌         | 待测试      | ✅           | ✅           | gcr.io/ml-pipeline/api-server:0.2.5                          |                       |      |
