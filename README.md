@@ -15,9 +15,9 @@
 | Pipeline      | pipelines-runner                   | **核心** | 无镜像                                                       |           |             |             |             |                       |      |
 | Pipeline      | pipelines-ui                       | **核心** | gcr.io/ml-pipeline/frontend                                  | ✅         | 待测试      | ✅           | ✅           |                       |      |
 | Pipeline      | pipelines-viewer                   | **核心** | gcr.io/ml-pipeline/viewer-crd-controller:0.1.31              | ✅         | 待测试      | ✅           | ✅           |                       |      |
-| Pipeline      | pipeline-visualization-service     | 依赖     | gcr.io/ml-pipeline/visualization-server:0.2.5                | ❌         | ❌           | ✅           | ✅           |                       |      |
-| Pipeline      | api-service                        | **核心** | gcr.io/ml-pipeline/api-server:0.2.5                          | ❌         | ❌           | ✅           | ✅           |                       |      |
-| Pipeline      | scheduledworkflow                  |          | gcr.io/ml-pipeline/scheduledworkflow:0.2.5                   | ✅         | ❌           | ✅           | ✅           |                       |      |
+| Pipeline      | pipeline-visualization-service     | 依赖     | gcr.io/ml-pipeline/visualization-server:0.2.5                | ❌         | 待测试      | ✅           | ✅           |                       |      |
+| Pipeline      | api-service                        | **核心** | gcr.io/ml-pipeline/api-server:0.2.5                          | ❌         | 待测试      | ✅           | ✅           |                       |      |
+| Pipeline      | scheduledworkflow                  |          | gcr.io/ml-pipeline/scheduledworkflow:0.2.5                   | ✅         | 待测试      | ✅           | ✅           |                       |      |
 | Istio/ingress | add-anonymous-user-filter          | 未知     | 无镜像                                                       |           |             |             |             |                       |      |
 | Istio/ingress | bootstrap                          | 未使用   | gcr.io/kubeflow-images-public/ingress-setup:latest           |           |             |             |             |                       |      |
 | Istio/ingress | istio                              | 暂不使用 |                                                              |           |             |             |             |                       |      |
